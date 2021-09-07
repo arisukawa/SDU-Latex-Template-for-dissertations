@@ -1,0 +1,334 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{Han:1965pf}{article}{}
+      \name{author}{2}{}{%
+        {{hash=61fa38529c2b7dc31ed4a397aa36639b}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={M.\bibnamedelimi Y.},
+           giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=682e788d40da1045f1854b5742f759d1}{%
+           family={Nambu},
+           familyi={N\bibinitperiod},
+           given={Yoichiro},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=071423382b97b31a1bff9b9c97b4c5b4}{%
+           family={Eguchi},
+           familyi={E\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{800d0ce09563bbc29be0abbd474c187d}
+      \strng{fullhash}{800d0ce09563bbc29be0abbd474c187d}
+      \strng{bibnamehash}{800d0ce09563bbc29be0abbd474c187d}
+      \strng{authorbibnamehash}{800d0ce09563bbc29be0abbd474c187d}
+      \strng{authornamehash}{800d0ce09563bbc29be0abbd474c187d}
+      \strng{authorfullhash}{800d0ce09563bbc29be0abbd474c187d}
+      \strng{editorbibnamehash}{071423382b97b31a1bff9b9c97b4c5b4}
+      \strng{editornamehash}{071423382b97b31a1bff9b9c97b4c5b4}
+      \strng{editorfullhash}{071423382b97b31a1bff9b9c97b4c5b4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Rev.}
+      \field{title}{Three Triplet Model with Double SU(3) Symmetry}
+      \field{userf}{en}
+      \field{volume}{139}
+      \field{year}{1965}
+      \field{pages}{B1006\bibrangedash B1010}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1103/PhysRev.139.B1006
+      \endverb
+    \endentry
+    \entry{Gross1973UltravioletBO}{article}{}
+      \name{author}{2}{}{%
+        {{hash=024dd3df8bbdd2d7f23d97316f2d4b36}{%
+           family={Gross},
+           familyi={G\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=09f79b69f6fc4820f95cfa4684c726ec}{%
+           family={Wilczek},
+           familyi={W\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{7fd04164ff2247fe4229c8ef8a8d4707}
+      \strng{fullhash}{7fd04164ff2247fe4229c8ef8a8d4707}
+      \strng{bibnamehash}{7fd04164ff2247fe4229c8ef8a8d4707}
+      \strng{authorbibnamehash}{7fd04164ff2247fe4229c8ef8a8d4707}
+      \strng{authornamehash}{7fd04164ff2247fe4229c8ef8a8d4707}
+      \strng{authorfullhash}{7fd04164ff2247fe4229c8ef8a8d4707}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Review Letters}
+      \field{title}{Ultraviolet Behavior of Non-Abelian Gauge Theories}
+      \field{userf}{en}
+      \field{volume}{30}
+      \field{year}{1973}
+      \field{pages}{1343\bibrangedash 1346}
+      \range{pages}{4}
+    \endentry
+    \entry{GellMann:1964nj}{article}{}
+      \name{author}{1}{}{%
+        {{hash=08ade17a88f1c8420c2a5e5f980bed7e}{%
+           family={Gell-Mann},
+           familyi={G\bibinithyphendelim M\bibinitperiod},
+           given={Murray},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{08ade17a88f1c8420c2a5e5f980bed7e}
+      \strng{fullhash}{08ade17a88f1c8420c2a5e5f980bed7e}
+      \strng{bibnamehash}{08ade17a88f1c8420c2a5e5f980bed7e}
+      \strng{authorbibnamehash}{08ade17a88f1c8420c2a5e5f980bed7e}
+      \strng{authornamehash}{08ade17a88f1c8420c2a5e5f980bed7e}
+      \strng{authorfullhash}{08ade17a88f1c8420c2a5e5f980bed7e}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Lett.}
+      \field{title}{A Schematic Model of Baryons and Mesons}
+      \field{userf}{en}
+      \field{volume}{8}
+      \field{year}{1964}
+      \field{pages}{214\bibrangedash 215}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1016/S0031\-9163(64)92001\-3
+      \endverb
+    \endentry
+    \entry{Zweig:1964jf}{inbook}{}
+      \name{author}{1}{}{%
+        {{hash=25ea5cebaf2ad3efbb74d29aa56556fb}{%
+           family={Zweig},
+           familyi={Z\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=076854265547bb11fd0c42a1398e3fda}{%
+           family={Lichtenberg},
+           familyi={L\bibinitperiod},
+           given={D.\bibnamedelimi B.},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=789ef260e8cb573bf92f975e78f97fb0}{%
+           family={Rosen},
+           familyi={R\bibinitperiod},
+           given={Simon\bibnamedelima Peter},
+           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{25ea5cebaf2ad3efbb74d29aa56556fb}
+      \strng{fullhash}{25ea5cebaf2ad3efbb74d29aa56556fb}
+      \strng{bibnamehash}{25ea5cebaf2ad3efbb74d29aa56556fb}
+      \strng{authorbibnamehash}{25ea5cebaf2ad3efbb74d29aa56556fb}
+      \strng{authornamehash}{25ea5cebaf2ad3efbb74d29aa56556fb}
+      \strng{authorfullhash}{25ea5cebaf2ad3efbb74d29aa56556fb}
+      \strng{editorbibnamehash}{ede2644b032a93d59fd4911f06e660de}
+      \strng{editornamehash}{ede2644b032a93d59fd4911f06e660de}
+      \strng{editorfullhash}{ede2644b032a93d59fd4911f06e660de}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{DEVELOPMENTS IN THE QUARK THEORY OF HADRONS. VOL. 1. 1964 - 1978}
+      \field{month}{2}
+      \field{title}{An SU(3) model for strong interaction symmetry and its breaking. Version 2}
+      \field{userf}{en}
+      \field{year}{1964}
+    \endentry
+    \entry{Boeckel:2011yj}{article}{}
+      \name{author}{2}{}{%
+        {{hash=ce28829b27692039308bde4ef2bf2bbe}{%
+           family={Boeckel},
+           familyi={B\bibinitperiod},
+           given={Tillmann},
+           giveni={T\bibinitperiod}}}%
+        {{hash=3bef392b6b7b0df3a8fec6c8fb9e89ce}{%
+           family={Schaffner-Bielich},
+           familyi={S\bibinithyphendelim B\bibinitperiod},
+           given={Jurgen},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{0f71cf86dc0c2b260df2b3d2d6f15ae8}
+      \strng{fullhash}{0f71cf86dc0c2b260df2b3d2d6f15ae8}
+      \strng{bibnamehash}{0f71cf86dc0c2b260df2b3d2d6f15ae8}
+      \strng{authorbibnamehash}{0f71cf86dc0c2b260df2b3d2d6f15ae8}
+      \strng{authornamehash}{0f71cf86dc0c2b260df2b3d2d6f15ae8}
+      \strng{authorfullhash}{0f71cf86dc0c2b260df2b3d2d6f15ae8}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{astro-ph.CO}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Phys. Rev. D}
+      \field{title}{A little inflation at the cosmological QCD phase transition}
+      \field{userf}{en}
+      \field{volume}{85}
+      \field{year}{2012}
+      \field{pages}{103506}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.85.103506
+      \endverb
+      \verb{eprint}
+      \verb 1105.0832
+      \endverb
+    \endentry
+    \entry{Shuryak:1978ij}{article}{}
+      \name{author}{1}{}{%
+        {{hash=509d88661faaab8bb0348965ffe47754}{%
+           family={Shuryak},
+           familyi={S\bibinitperiod},
+           given={Edward\bibnamedelima V.},
+           giveni={E\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \strng{namehash}{509d88661faaab8bb0348965ffe47754}
+      \strng{fullhash}{509d88661faaab8bb0348965ffe47754}
+      \strng{bibnamehash}{509d88661faaab8bb0348965ffe47754}
+      \strng{authorbibnamehash}{509d88661faaab8bb0348965ffe47754}
+      \strng{authornamehash}{509d88661faaab8bb0348965ffe47754}
+      \strng{authorfullhash}{509d88661faaab8bb0348965ffe47754}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Lett. B}
+      \field{title}{Quark-Gluon Plasma and Hadronic Production of Leptons, Photons and Psions}
+      \field{userf}{en}
+      \field{volume}{78}
+      \field{year}{1978}
+      \field{pages}{150}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/0370\-2693(78)90370\-2
+      \endverb
+    \endentry
+    \entry{Bohr:1977gj}{article}{}
+      \name{author}{2}{}{%
+        {{hash=48eed6268e68e6f524e1ebc25f04c736}{%
+           family={Bohr},
+           familyi={B\bibinitperiod},
+           given={Henrik},
+           giveni={H\bibinitperiod}}}%
+        {{hash=589bf7405fd8f316c470c7ada02c4e37}{%
+           family={Nielsen},
+           familyi={N\bibinitperiod},
+           given={Holger\bibnamedelima Bech},
+           giveni={H\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{d1402b59831791a666bcd0302016a728}
+      \strng{fullhash}{d1402b59831791a666bcd0302016a728}
+      \strng{bibnamehash}{d1402b59831791a666bcd0302016a728}
+      \strng{authorbibnamehash}{d1402b59831791a666bcd0302016a728}
+      \strng{authornamehash}{d1402b59831791a666bcd0302016a728}
+      \strng{authorfullhash}{d1402b59831791a666bcd0302016a728}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nucl. Phys. B}
+      \field{title}{Hadron Production from a Boiling Quark Soup}
+      \field{userf}{en}
+      \field{volume}{128}
+      \field{year}{1977}
+      \field{pages}{275\bibrangedash 293}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1016/0550\-3213(77)90032\-3
+      \endverb
+    \endentry
+    \entry{Zajc:2007ey}{article}{}
+      \name{author}{1}{}{%
+        {{hash=197bbc5cc09d82cf0678a7a6bb0c2f92}{%
+           family={Zajc},
+           familyi={Z\bibinitperiod},
+           given={W.\bibnamedelimi A.},
+           giveni={W\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \name{editor}{5}{}{%
+        {{hash=9d74f8a655d33678ebb05665bd7cb8ca}{%
+           family={Nagamiya},
+           familyi={N\bibinitperiod},
+           given={Shoji},
+           giveni={S\bibinitperiod}}}%
+        {{hash=15ee2cd22a8cda16f426e41adbaca628}{%
+           family={Motobayashi},
+           familyi={M\bibinitperiod},
+           given={Tohru},
+           giveni={T\bibinitperiod}}}%
+        {{hash=75802f1d168f5e2eb553f5012b1d19af}{%
+           family={Oka},
+           familyi={O\bibinitperiod},
+           given={Makoto},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6cb7d39b6e359189fe8b329270c931f1}{%
+           family={Hayano},
+           familyi={H\bibinitperiod},
+           given={Ryugo\bibnamedelima S.},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=e094c81e7d97078af094136c14fd2fb1}{%
+           family={Nagae},
+           familyi={N\bibinitperiod},
+           given={Tomofumi},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{197bbc5cc09d82cf0678a7a6bb0c2f92}
+      \strng{fullhash}{197bbc5cc09d82cf0678a7a6bb0c2f92}
+      \strng{bibnamehash}{197bbc5cc09d82cf0678a7a6bb0c2f92}
+      \strng{authorbibnamehash}{197bbc5cc09d82cf0678a7a6bb0c2f92}
+      \strng{authornamehash}{197bbc5cc09d82cf0678a7a6bb0c2f92}
+      \strng{authorfullhash}{197bbc5cc09d82cf0678a7a6bb0c2f92}
+      \strng{editorbibnamehash}{c4e98f092f9145c906da93d3f75e617f}
+      \strng{editornamehash}{592a7aab3bc86d373a800e919fa1cad7}
+      \strng{editorfullhash}{174fc1ac1220701ed609ed83f3e72af3}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{nucl-ex}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Nucl. Phys. A}
+      \field{title}{The Fluid Nature of Quark-Gluon Plasma}
+      \field{userf}{en}
+      \field{volume}{805}
+      \field{year}{2008}
+      \field{pages}{283\bibrangedash 294}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/j.nuclphysa.2008.02.285
+      \endverb
+      \verb{eprint}
+      \verb 0802.3552
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

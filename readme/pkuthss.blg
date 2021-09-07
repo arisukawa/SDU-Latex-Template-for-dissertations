@@ -1,0 +1,15 @@
+[0] Config.pm:311> INFO - This is Biber 2.16
+[0] Config.pm:314> INFO - Logfile is 'pkuthss.blg'
+[147] biber-MSWIN32:340> INFO - === 
+[198] Biber.pm:415> INFO - Reading 'pkuthss.bcf'
+[353] Biber.pm:952> INFO - Found 8 citekeys in bib section 0
+[374] Biber.pm:4340> INFO - Processing section 0
+[395] Biber.pm:4531> INFO - Looking for bibtex format file 'pkuthss.bib' for section 0
+[476] bibtex.pm:1689> INFO - LaTeX decoding ...
+[515] bibtex.pm:1494> INFO - Found BibTeX data source 'pkuthss.bib'
+[606] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[606] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[606] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[606] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[614] bbl.pm:654> INFO - Writing 'pkuthss.bbl' with encoding 'UTF-8'
+[619] bbl.pm:757> INFO - Output to pkuthss.bbl

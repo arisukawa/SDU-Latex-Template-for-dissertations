@@ -1,0 +1,154 @@
+%!TEX program = xelatex 
+
+% Documentation for pkuthss.
+%
+% Copyright (c) 2008-2009 solvethis
+% Copyright (c) 2010-2016,2018-2019 Casper Ti. Vector
+%
+% This work may be distributed and/or modified under the conditions of the
+% LaTeX Project Public License, either version 1.3 of this license or (at
+% your option) any later version.
+% The latest version of this license is in
+%   https://www.latex-project.org/lppl.txt
+% and version 1.3 or later is part of all distributions of LaTeX version
+% 2005/12/01 or later.
+%
+% This work has the LPPL maintenance status `maintained'.
+% The current maintainer of this work is Casper Ti. Vector.
+%
+% This work consists of the following files:
+%   pkuthss.tex
+%   chap/pkuthss-copy.tex
+%   chap/pkuthss-abs.tex
+%   chap/pkuthss-intro.tex
+%   chap/pkuthss-chap1.tex
+%   chap/pkuthss-chap2.tex
+%   chap/pkuthss-chap3.tex
+%   chap/pkuthss-concl.tex
+%   chap/pkuthss-encl1.tex
+%   chap/pkuthss-ack.tex
+
+\documentclass[UTF8, AutoFakeBold]{pkuthss}
+\usepackage[
+	backend = biber, style = caspervector, utf8, 
+	%sorting = none,
+	giveninits = true, sortgiveninits = true]{biblatex}
+\usepackage{iftex, fancyvrb, hologo}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{pdfpages}
+
+\hypersetup{colorlinks = true, allcolors = black}
+\ctexset{linestretch = 0\ccwd}
+\setlength{\hfuzz}{3pt}
+\setlength{\bibitemsep}{3bp}
+\renewcommand*{\bibfont}{\zihao{5}\linespread{1.27}\selectfont}
+\newcommand*{\cupercite}[1]{\supercite{#1}\mbox{}}
+\newcommand{\myemph}[1]{\emph{\textcolor{red}{#1}}}
+\newcommand{\unemph}[1]{\textup{\textcolor{black}{#1}}}
+\newcommand{\RNum}[1]{\rm\uppercase\expandafter{\romannumeral #1}}
+\renewcommand{\cftchapfont}{\songti\zihao{-4}}%目录
+\renewcommand{\cftsecfont}{\songti\zihao{-4}} %设置section条目的字体
+\renewcommand{\cftsubsecfont}{\songti\zihao{-4}} %设置subsection条目的字体
+\renewcommand{\listfigurename}{图目录}
+\renewcommand{\listtablename}{表目录}
+\RecustomVerbatimEnvironment{Verbatim}{Verbatim}%
+	{frame = single, tabsize = 4, formatcom = {\ifXeTeX\xeCJKVerbAddon\fi}}
+\RecustomVerbatimCommand{\VerbatimInput}{VerbatimInput}{
+	fontsize = {\small}, baselinestretch = 1,
+	tabsize = 4, formatcom = {\ifXeTeX\xeCJKVerbAddon\fi}
+}
+
+\makeatletter
+\newcommand\engcontentsname{CONTENTS}
+\newcommand\tableofengcontents{%
+    \if@twocolumn
+      \@restonecoltrue\onecolumn
+    \else
+      \@restonecolfalse
+    \fi
+    \chapter*{\engcontentsname
+        \@mkboth{
+           \MakeUppercase\engcontentsname}{\MakeUppercase\engcontentsname}}
+    \@starttoc{toe}
+    \if@restonecol\twocolumn\fi
+    }
+\newcommand\addengcontents[2]{
+    \addcontentsline{toe}{#1}{\protect\numberline{\csname the#1\endcsname}#2}}
+\makeatother
+\newcommand\echapter[1]{\addengcontents{chapter}{#1}}
+\newcommand\esection[1]{\addengcontents{section}{#1}}
+\newcommand\esubsection[1]{\addengcontents{subsection}{#1}}
+\newcommand\esubsubsection[1]{\addengcontents{subsubsection}{#1}}
+
+\newcommand*{\docversion}{v1.8.2}
+\pkuthssinfo{
+	fenleihao={O572},
+	miji={公开},
+	danweidaima={10422},
+	xuehao={200000000},
+	cthesisname = {硕\hspace{0.5em}士\hspace{0.5em}学\hspace{0.5em}位\hspace{0.5em}论\hspace{0.5em}文}, ethesisname = {Thesis\hspace{0.5em}for\hspace{0.5em}Master\hspace{0.5em}Degree},
+	ctitle = {喵喵喵喵喵喵},
+	etitle = {%
+	            miaomiaomiaomiaomiaomiao\texorpdfstring{\\}{: }%
+	},
+	cauthor = {Arisukawa},
+	eauthor = {Arisukawa},
+	studentid = {200000000},
+	date = {2021年4月5日},
+	school = {前沿交叉科学青岛研究院},
+	cmajor = {物理学}, emajor = {Physics Major},
+	direction = {粒子物理与原子核物理},
+	cmentor = {ZYC教授}, ementor = {Prof. ZYC},
+	comentor = {},
+	ckeywords = {喵1；喵2；喵3；喵4；喵5},
+	ekeywords = {miao1; miao2; miao3; miao4; miao5},
+}
+
+\addbibresource{pkuthss.bib}
+
+\begin{document}
+	\frontmatter
+	\pagestyle{empty}
+    \maketitle
+	\cleardoublepage
+
+	\cleardoublepage
+	\pagenumbering{gobble}
+	\pagestyle{plain} 
+	\include{chap/statement}
+	\tableofcontents
+    \tableofengcontents
+    \listoffigures
+    \listoftables
+    \cleardoublepage
+
+	\cleardoublepage
+    \pagestyle{plain} 
+    \setcounter{page}{0}
+    \pagenumbering{Roman}
+    \include{chap/pkuthss-abs}
+    \include{chap/pkuthss-abbv}
+
+	\mainmatter
+	\include{chap/pkuthss-chap1}
+	\include{chap/pkuthss-chap8}
+	\include{chap/pkuthss-chap7}
+	\include{chap/pkuthss-concl}
+	\include{chap/pkuthss-app}
+
+	\appendix
+	\phantomsection
+	\addcontentsline{toc}{chapter}{引文出处及参考文献}
+	\addcontentsline{toe}{chapter}{BIBLIOGRAPHY}
+	\printbibliography[title = {引文出处及参考文献}]
+	
+	\backmatter
+	\include{chap/pkuthss-ack}
+	\include{chap/pkuthss-pub}
+	\cleardoublepage
+	\includepdf[pages={1}]{fff.pdf}
+	%\include{chap/pkuthss-english}
+\end{document}
+
+% vim:ts=4:sw=4
