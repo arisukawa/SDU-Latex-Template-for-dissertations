@@ -27,8 +27,8 @@ latex 表格：https://www.tablesgenerator.com/
 pkuthss v1.8.2：https://github.com/CasperVector/pkuthss/tree/v1.8.2
 bbl玩崩了可以参考调整的细节：https://github.com/CasperVector/biblatex-caspervector
 
-（感谢北大多代人对pkuthss的努力运营
-（祝各位山大学子毕业顺利
+感谢北大多代人对pkuthss的努力运营有这么好的模板可以让我们抄（不是
+祝各位山大学子毕业顺利=w=
 
 
 
